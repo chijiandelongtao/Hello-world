@@ -9,7 +9,7 @@
 
 
      	<!-- 配置扫描包，使用 @Controller注解生效 -->
-      <context:component-scan base-package="cn.itcast.note"/>
+      <context:component-scan base-package="cn.ly.note"/>
    
       <bean name="/hello.do" class="springmvcchongzhi.Handler"></bean>
       
@@ -36,7 +36,7 @@ Springmvc的后端控制器。  -->
 <!-- 同上 -->
 	
 	<mvc:interceptors>
-	<bean class="cn.itcast.interceptor.TestInterceptor"></bean>
+	<bean class="cn.ly.interceptor.TestInterceptor"></bean>
 	</mvc:interceptors>
 	
 </beans>
