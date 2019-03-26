@@ -6,6 +6,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;
 
+/**
+ * 新公司测试提交
+ */
 public class Handler implements Controller {
 
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response)
